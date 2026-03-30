@@ -14,25 +14,11 @@ import CtaSection from "../components/landing/Cta";
 import FAQ from "../components/landing/FQA";
 import Footer from "../components/landing/Footer";
 
-import ComingSoonPage from "../components/ComingSoon";
+
 import PricingSection from "../components/package/PricingSection";
 
 export default function Home() {
-  const [showLanding, setShowLanding] = useState(false);
-
-  useEffect(() => {
-    const now = new Date().getTime();
-    const target = new Date("2026-03-28T00:00:00").getTime();
-
-    if (now >= target) {
-      setShowLanding(true);
-    }
-  }, []);
-
-  // 🔹 Conditional Render
-  if (!showLanding) {
-    return <ComingSoonPage />;
-  }
+  
   return (
     <>
       <Navbar />
