@@ -7,11 +7,11 @@ const testimonials = [
   {
     quote:
       "We cut order errors by 73% in the first week. Our servers now focus on hospitality, not transcribing orders. QROrderly paid for itself in 3 days.",
-    name: "Marcus Delgado",
+    name: "Hari Brd Neupane",
     role: "Owner, Copper & Vine Restaurant",
     location: "Austin, TX",
     avatar:
-      "https://img.rocket.new/generatedImages/rocket_gen_img_14302cb45-1772163046212.png",
+      "",
     metric: "73% fewer errors",
     metricLabel: "Order accuracy",
     rating: 5,
@@ -19,11 +19,11 @@ const testimonials = [
   {
     quote:
       "Our average check size went up $14 per table because the menu photos make every dish look incredible.",
-    name: "Priya Nair",
+    name: "Ram Brd Neupane",
     role: "F&B Director, The Meridian Hotel",
     location: "San Francisco, CA",
     avatar:
-      "https://img.rocket.new/generatedImages/rocket_gen_img_1e076cd8c-1772983622767.png",
+      "",
     metric: "+$14 avg check",
     metricLabel: "Per table increase",
     rating: 5,
@@ -35,7 +35,7 @@ const testimonials = [
     role: "Chef-Owner, Birdhouse Café",
     location: "Brooklyn, NY",
     avatar:
-      "https://img.rocket.new/generatedImages/rocket_gen_img_149d4a356-1766765242227.png",
+      "",
     metric: "11 min setup",
     metricLabel: "To first order",
     rating: 5,
